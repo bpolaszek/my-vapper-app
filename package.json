@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "vapper:dev": "vapper dev",
+    "vapper:build": "vapper build",
+    "vapper:start": "vapper start"
   },
   "dependencies": {
+    "@vapper/core": "^1.11.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
+    "vue-router": "^3.4.9",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
