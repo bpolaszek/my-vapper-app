@@ -1,19 +1,7 @@
 # my-vapper-app
 
-## Project setup
-```
-yarn install
-```
+## Serve with Vapper
 
-### Compiles and hot-reloads for development
+```bash
+yarn vapper:dev
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
